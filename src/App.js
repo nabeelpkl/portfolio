@@ -28,14 +28,8 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="light-mode">
-        <span className="icon">
-          <Icon.Sun />
-        </span>
-        <button className={lightMode ? 'light-mode-switch active' : 'light-mode-switch'} onClick={() => handleMode()}></button>
-      </div>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/portfolio" exact>
           <Home lightMode={lightMode}/>
         </Route>
         <Route path="/about" component={About} />

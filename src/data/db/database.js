@@ -21,7 +21,7 @@ const database = {
       linkedin:"https://www.linkedin.com/in/nabeel-kottol-20a83639",
       github:"https://github.com/nabeelpkl"
     },
-    profileImage: '/images/profile-pic.png',
+    profileImage: './images/profile-pic.png',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
     cvfile: '/files/empty.pdf'

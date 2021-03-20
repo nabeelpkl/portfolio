@@ -5,7 +5,7 @@ const database = {
     name: 'Nabeel K',
     aboutContent: "I am a mobile app developer. I can provide clean code and pixel perfect design. I can also work on websites.",
     age: 29,
-    phone: '',
+    phone: '+91 8891008861',
     nationality: 'Indian',
     language: 'English, Malayalam, Hindi',
     email: 'nabeel.kottol@gmail.com',
@@ -24,7 +24,7 @@ const database = {
     profileImage: './images/profile-pic.png',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    cvfile: '/files/nabeel-resume.pdf'
   },
   services: [
     {

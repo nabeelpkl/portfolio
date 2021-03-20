@@ -99,6 +99,11 @@ function About() {
                                             <b>Phone</b> {information.phone}
                                         </li>
                                     )}
+                                    {!information.email ? null : (
+                                        <li>
+                                            <b>Email</b> {information.email}
+                                        </li>
+                                    )}
                                     {!information.nationality ? null : (
                                         <li>
                                             <b>Nationality</b> {information.nationality}
@@ -107,11 +112,6 @@ function About() {
                                     {!information.language ? null : (
                                         <li>
                                             <b>Languages</b> {information.language}
-                                        </li>
-                                    )}
-                                    {!information.email ? null : (
-                                        <li>
-                                            <b>Email</b> {information.email}
                                         </li>
                                     )}
                                     {!information.address ? null : (

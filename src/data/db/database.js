@@ -3,14 +3,14 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Nabeel K',
-    aboutContent: "I am a mobile app developer. I can provide clean code and pixel perfect design. I can also make websites.",
-    age: 24,
+    aboutContent: "I am a mobile app developer. I can provide clean code and pixel perfect design. I can also work on websites.",
+    age: 29,
     phone: '',
-    nationality: 'American',
-    language: 'English, French',
-    email: '',
-    address: '121 King Street, Melbourne, Australia',
-    freelanceStatus: 'Available',
+    nationality: 'Indian',
+    language: 'English, Malayalam, Hindi',
+    email: 'nabeel.kottol@gmail.com',
+    address: '',
+    freelanceStatus: '',
     socialLinks: {
       facebook: '',
       twitter: '',
@@ -28,18 +28,13 @@ const database = {
   },
   services: [
     {
-      title: "Web Design",
-      icon: 'color-pallet',
+      title: "Mobile Application",
+      icon: 'mobile',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     },
     {
       title: "Web Development",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    },
-    {
-      title: "Mobile Application",
-      icon: 'mobile',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     }
   ],

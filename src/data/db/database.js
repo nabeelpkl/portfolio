@@ -66,29 +66,45 @@ const database = {
   ],
   skills: [
     {
-      title: "HTML5",
+      title: "React Native",
       value: 95
     },
     {
-      title: "CSS3",
+      title: "Javascript",
       value: 90
     },
     {
-      title: "Javascript",
-      value: 70
+      title: "Flutter",
+      value: 75
     },
     {
-      title: "jQuery",
-      value: 85
-    },
-    {
-      title: "ReactJS",
+      title: "Dart",
       value: 80
     },
     {
-      title: "Photoshop",
+      title: "ReactJS",
+      value: 70
+    },
+    {
+      title: "HTML",
+      value: 80
+    },
+    {
+      title: "CSS",
       value: 65
-    }
+    },
+    {
+      title: "Android",
+      value: 70
+    },
+    {
+      title: "Java",
+      value: 80
+    },
+    {
+      title: "Kotlin",
+      value: 65
+    },
   ],
   portfolios: [
     {
@@ -277,48 +293,55 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "FEB 2020 - Present",
+        position: "Software Developer",
+        company: "Jupiter Money",
+        details: "Working as a Software Engineer. Currently developing mobile apps for both Android and iOS in React Native and Flutter."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "APR 2019 - FEB 2020",
+        position: "Senior Software Developer",
+        company: "Itilite Technologies Pvt Ltd",
+        details: "Worked as a Senior Software Engineer. Developed mobile apps for both Android and iOS in react native."
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "JUN 2017 - MAR 2019",
+        position: "Software Developer",
+        company: "Kalpnik Technologies Pvt Ltd",
+        details: "Created native Android app and an iOS app using React Native, developed plugins for payment, network related listeners to integrate with unity, worked on firebase analytics in Unity with bigQuery, integrated Appsflyer, Facebook analytics in Unity for app tracking and attribution, currently working on video streaming based app in React Native and Unity and an Android TV app."
+      },
+      {
+        id: 4,
+        year: "FEB 2016 - MAR 2017",
+        position: "Android Developer",
+        company: "MobME Wireless Solutions",
+        details: "Worked as Team Lead for product mPassbook, part of full product lifecycle, used Sync Adapter, Content Provider, libraries like SQLCipher, MPAndroidChart, PDFCreator, Retrofit"
+      },
+      {
+        id: 5,
+        year: "MAR 2015 - JAN 2016",
+        position: "Android Developer",
+        company: "TechPing Internet Solutions",
+        details: "Developed multiple Android apps - Chat based social networking app using Socket.io, Event bus, Volley, GCM, Sugar ORM - Summarized news app using SQLite, Volley, GCM, Viewpager - Chat based hyperlocal shopping app using Socket.io, SQLite, Event Bus, Volley"
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2010 - 2014",
+        graduation: "B.tech Computer Science",
+        university: "College of Engineering, Trivandrum",
+        details: "Completed B.tech in Computer Science and Engineering with a cgpa of 6.96"
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2007 - 2009",
+        graduation: "Higher Secondary Education(XII)",
+        university: "PPMHSS Kottukkara, Malappuram",
+        details: ""
       },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
     ]
   },
   blogs: [

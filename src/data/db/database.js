@@ -24,7 +24,7 @@ const database = {
     profileImage: './images/profile-pic.png',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/nabeel-resume.pdf'
+    cvfile: './files/nabeel-resume.pdf'
   },
   services: [
     {
@@ -482,9 +482,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['+91 8891008861', '+91 7012048089'],
+    emailAddress: ['nabeel.kottol@gmail.com', 'nabeel.kottol8861@gmail.com'],
+    address: ""
   }
 }
 

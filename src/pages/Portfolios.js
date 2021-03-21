@@ -38,7 +38,7 @@ function Portfolios() {
         <div className="container">
           <Sectiontitle title="Portfolios" />
           {<PortfoliosView portfolios={currentPortfolios} />}
-          {!(portfolios.length > portfoliosPerPage) ? null : (
+        {/*  {!(portfolios.length > portfoliosPerPage) ? null : (
             <Pagination
               className="mt-50"
               itemsPerPage={portfoliosPerPage}
@@ -46,7 +46,7 @@ function Portfolios() {
               paginate={paginate}
               currentPage={currentPage}
             />
-          )}
+          )}*/}
         </div>
       </div>
     </Layout>
